@@ -3,6 +3,13 @@
     .modal-form {
       display: flex;
       flex-direction: column;
+
+       /*===========modal btn CONTACT FORM===========*/
+     &__modal-btn {      
+       align-self: center;
+       margin-top: 30px;
+       padding: 10px 56px;
+      }
     }
     .modal-form-head {
       margin-bottom: 12px;
@@ -134,27 +141,4 @@
     .modal-form-policy-link {
       color: var(--accent-color);
     }
-    /*===========modal btn CONTACT FORM===========*/
-    .modal-form-button {
-      transition: background-color var(--transition-duretion) var(--transition-timing-function);
-    
-      display: inline-block;
-      align-self: center;
-      border: 1px solid transparent;
-      border-radius: 4px;
-      margin-top: 30px;
-      padding: 10px 56px;
-      min-width: 200px;
-      color: var(--white-text-color);
-      background-color: var(--accent-color);
-    
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 1.874;
-      letter-spacing: 0.06em;
-      cursor: pointer;
-      text-align: center;
-    }
-    .modal-btn:focus {
-      background-color: #188ce8;
-    }
+

@@ -15,6 +15,15 @@
     background-size: cover;
     background-color: #C4C4C4;
     /*outline: 1px solid greenyellow;*/
+
+    &__modal-btn {
+      padding: 10px 32px;
+  
+         &:hover,
+         &:focus {
+        background-color: #188ce8;
+         }
+    }
   }
   .hero-title {
     margin-top: 0;  
@@ -30,32 +39,6 @@
   
     /*background-color: tomato;*/
   }
-  
-  .modal-btn {
-    transition: background-color var(--transition-duretion) var(--transition-timing-function);
-  
-    display: inline-block;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    padding: 10px 32px;
-    min-width: 200px;
-    color: var(--white-text-color);
-    background-color: #2196f3;
-  
-    font-weight: 700;
-    @include font(16px, 1.874, 0.06em);
-    /*font-size: 16px;
-    line-height: 1.874;
-    letter-spacing: 0.06em;*/
-    cursor: pointer;
-    text-align: center;
-
-    &:hover,
-    &:focus {
-      background-color: #188ce8;
-    }
-  }
-
   /*
   .overlay {
     height: 600px;

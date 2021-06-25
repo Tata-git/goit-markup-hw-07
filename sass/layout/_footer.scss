@@ -5,6 +5,12 @@
     padding-top: 60px;
     padding-bottom: 60px; 
     background: var(--background-black);
+
+    &__logo {
+      margin-bottom: 20px;
+  
+      color: var(--white-text-color);
+    }  
   }
   .footer-list {
     font-style: normal;

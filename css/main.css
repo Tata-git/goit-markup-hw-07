@@ -103,6 +103,11 @@ body {
   transition: fill var(--transition-duretion) var(--transition-timing-function);
 }
 
+.team-social-bcgr:hover .team-social,
+.team-social-bcgr:focus .team-social {
+  fill: var(--white-text-color);
+}
+
 .team-social-bcgr {
   transition: background-color var(--transition-duretion) var(--transition-timing-function);
   display: flex;
@@ -113,14 +118,8 @@ body {
   border-radius: 50%;
 }
 
-.team-social-bcgr:hover,
-.team-social-bcgr:focus {
+.team-social-bcgr:hover, .team-social-bcgr:focus {
   background-color: var(--accent-color);
-}
-
-.team-social-bcgr:hover .team-social,
-.team-social-bcgr:focus .team-social {
-  fill: var(--white-text-color);
 }
 
 .footer-social-list {
@@ -143,8 +142,7 @@ body {
   /* outline: 1px solid rgb(0, 255, 64);*/
 }
 
-.fr-icon-bcgr:hover,
-.fr-icon-bcgr:focus {
+.fr-icon-bcgr:hover, .fr-icon-bcgr:focus {
   background-color: var(--accent-color);
 }
 
@@ -275,6 +273,11 @@ body {
   padding-left: 42px;
 }
 
+.modal-form-input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
 .modal-form-icon {
   position: absolute;
   top: 50%;
@@ -287,6 +290,10 @@ body {
   /* background-color:tomato;*/
 }
 
+.modal-form-input:focus + .modal-form-icon {
+  fill: var(--accent-color);
+}
+
 /*щоб відцентрувати іконку, яку ловить label (modal-form-field), створюємо div (modal-form-wrapper) і задаємо для нього  position: relative, а у label - видаляємо 
     .modal-form-field {
       position: relative;
@@ -295,15 +302,6 @@ body {
   margin-top: 4px;
   position: relative;
   display: block;
-}
-
-.modal-form-input:focus {
-  border-color: var(--accent-color);
-  outline: none;
-}
-
-.modal-form-input:focus + .modal-form-icon {
-  fill: var(--accent-color);
 }
 
 .modal-form-field {
@@ -448,10 +446,6 @@ body {
   margin-left: 50px;
 }
 
-.site-nav .link.current {
-  color: var(--accent-color);
-}
-
 .site-nav {
   position: relative;
   display: flex;
@@ -463,8 +457,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav-link:hover,
-.site-nav-link:focus {
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -478,6 +471,10 @@ body {
   background-position: center;
   background-color: var(--accent-color);
   border-radius: 2px;
+}
+
+.site-nav:hover, .site-nav:focus {
+  color: var(--accent-color);
 }
 
 /* SITE CONTACTS*/
@@ -508,16 +505,20 @@ body {
   color: var(--text-color);
 }
 
+.mail-link:hover, .mail-link:focus,
 .tel-link:hover,
 .tel-link:focus {
   color: var(--accent-color);
 }
 
-.mail-link:hover,
-.mail-link:focus {
-  color: var(--accent-color);
-}
-
+/* .tel-link:hover,
+   .tel-link:focus {
+     color: var(--accent-color);
+   }
+   .mail-link:hover,
+   .mail-link:focus {
+     color: var(--accent-color);
+   }*/
 .icon-header {
   margin-right: 10px;
   fill: currentColor;
@@ -573,8 +574,7 @@ body {
   text-align: center;
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn:hover, .modal-btn:focus {
   background-color: #188ce8;
 }
 
@@ -744,13 +744,12 @@ body {
   box-sizing: border-box;
 }
 
-.clients-logo-icon {
-  transition: fill var(--transition-duretion) var(--transition-timing-function);
+.clients-icon:hover, .clients-icon:focus {
+  border: 1px solid var(--accent-color);
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
-  border: 1px solid var(--accent-color);
+.clients-logo-icon {
+  transition: fill var(--transition-duretion) var(--transition-timing-function);
 }
 
 .clients-icon:hover .clients-logo-icon,
@@ -901,14 +900,13 @@ body {
   margin-top: 30px;
 }
 
-/*.pf-link > .item {
-      transition: box-shadow var(--transition-duretion) var(--transition-timing-function);
-    }*/
-.portfolio-card-set > .item:hover,
-.portfolio-card-set > .item:focus {
+.portfolio-card-set > .item:hover, .portfolio-card-set > .item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+/*.pf-link > .item {
+      transition: box-shadow var(--transition-duretion) var(--transition-timing-function);
+    }*/
 /*portfolio filter*/
 .portfolio-filter {
   display: flex;
@@ -919,13 +917,6 @@ body {
 
 .portfolio-filter .item + .item {
   margin-left: 8px;
-}
-
-.filter-btn:hover,
-.filter-btn:focus {
-  color: var(--white-text-color);
-  background: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-btn {
@@ -942,6 +933,12 @@ body {
   line-height: 1.624;
   letter-spacing: 0.03em;
   background: var(--secondary-background);
+}
+
+.filter-btn:hover, .filter-btn:focus {
+  color: var(--white-text-color);
+  background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-title {

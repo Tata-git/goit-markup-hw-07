@@ -18,7 +18,12 @@
       border: 1px solid rgba(33, 33, 33, 0.2);
       border-radius: 4px;
       padding-left: 42px;
-    }
+    
+       &:focus {
+         border-color: var(--accent-color);
+         outline: none;
+         }
+     }
     .modal-form-icon {
       position: absolute;
       top: 50%;
@@ -29,7 +34,11 @@
       height: 20px;
       background-size: contain;
      /* background-color:tomato;*/
-    }
+
+      .modal-form-input:focus + & {
+        fill: var(--accent-color);
+         }
+     }
     /*щоб відцентрувати іконку, яку ловить label (modal-form-field), створюємо div (modal-form-wrapper) і задаємо для нього  position: relative, а у label - видаляємо 
     .modal-form-field {
       position: relative;
@@ -39,13 +48,7 @@
       position: relative;
       display: block;
     }
-    .modal-form-input:focus {
-      border-color: var(--accent-color);
-      outline: none;
-    }
-    .modal-form-input:focus + .modal-form-icon {
-      fill: var(--accent-color);
-    }
+
     .modal-form-field {
       margin-bottom: 10px;
     
@@ -62,17 +65,17 @@
       border: 1px solid rgba(33, 33, 33, 0.2);
       border-radius: 4px;
       resize: none;
-    }
-    .modal-form-message::placeholder {
-      font-size: 14px;
-      line-height: 1.142;
-      letter-spacing: 0.01em;
-      color: rgba(117, 117, 117, 0.5);
-    }
-    .modal-form-message:focus {
-      outline: none;
-     border-color: var(--accent-color);
-    }
+        &::placeholder {
+          font-size: 14px;
+          line-height: 1.142;
+          letter-spacing: 0.01em;
+          color: rgba(117, 117, 117, 0.5);
+        }
+        &:focus {
+          outline: none;
+          border-color: var(--accent-color);
+        }
+     }
     /*
     .modal-form-checkbox {
       position: absolute !important;
@@ -94,18 +97,20 @@
       /*background-color: tomato;*/
     
       margin-right: 8px;
+
+      .modal-form-checkbox:checked + & {
+        border-color: transparent;
+       /* background-color: violet;*/
+        background-image: url(../Image/icon-check.svg);
+        background-size: contain;
+        background-origin: border-box;
+      }
+      .modal-form-checkbox:focus + & {
+        outline: 1px solid var(--accent-color);
+        border-radius: 4px;
+      }
     }
-    .modal-form-checkbox:checked + .icon-check {
-      border-color: transparent;
-     /* background-color: violet;*/
-      background-image: url(../Image/icon-check.svg);
-      background-size: contain;
-      background-origin: border-box;
-    }
-    .modal-form-checkbox:focus + .icon-check {
-      outline: 1px solid var(--accent-color);
-      border-radius: 4px;
-    }
+
     /*.modal-form-checkbox:checked + .modal-form-checkbox-policy {
       color: red;
     }*/

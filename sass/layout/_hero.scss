@@ -47,11 +47,13 @@
     letter-spacing: 0.06em;
     cursor: pointer;
     text-align: center;
+
+    &:hover,
+    &:focus {
+      background-color: #188ce8;
+    }
   }
-  .modal-btn:hover,
-  .modal-btn:focus {
-    background-color: #188ce8;
-  }
+
   /*
   .overlay {
     height: 600px;

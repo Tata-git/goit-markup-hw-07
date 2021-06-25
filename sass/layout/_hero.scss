@@ -22,9 +22,10 @@
   
     color: var(--white-text-color);
     font-weight: 900;
-    font-size: 44px;
+    @include font(44px, 1.364, 0.06em);
+    /*font-size: 44px;
     line-height: 1.364;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.06em;*/
     text-transform: uppercase;
   
     /*background-color: tomato;*/
@@ -42,9 +43,10 @@
     background-color: #2196f3;
   
     font-weight: 700;
-    font-size: 16px;
+    @include font(16px, 1.874, 0.06em);
+    /*font-size: 16px;
     line-height: 1.874;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.06em;*/
     cursor: pointer;
     text-align: center;
 

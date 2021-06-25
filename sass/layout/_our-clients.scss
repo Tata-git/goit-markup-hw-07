@@ -3,10 +3,9 @@
 
 .our-clients-list {
     display: flex;
-
-    & .item + .item {
+  }
+  .our-clients-list .item + .item {
       margin-left: 30px;
-    }
   }
 
   .clients-icon {

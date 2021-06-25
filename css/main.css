@@ -154,6 +154,9 @@ body {
   font-size: 36px;
   line-height: 1.166;
   letter-spacing: 0.03em;
+  /* font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;*/
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -162,6 +165,9 @@ body {
   font-size: 36px;
   line-height: 1.166;
   letter-spacing: 0.03em;
+  /* font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;*/
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -169,8 +175,11 @@ body {
 .our-clients-title {
   font-size: 36px;
   line-height: 1.166;
-  text-align: center;
   letter-spacing: 0.03em;
+  /*  font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;*/
+  text-align: center;
   color: var(--primary-text-color);
 }
 
@@ -180,6 +189,9 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+  /* font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;*/
   color: #000000;
 }
 
@@ -194,6 +206,9 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+  /*  font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;*/
   color: var(--white-text-color);
 }
 
@@ -261,8 +276,11 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  /* font-size: 20px;
+      line-height: 1.15;
+      letter-spacing: 0.03em;*/
+  text-align: center;
 }
 
 .modal-form-input {
@@ -453,8 +471,11 @@ body {
   margin-left: 93px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.142px;
   letter-spacing: 0.02em;
+  /* font-size: 14px;
+     line-height: 1.142;
+     letter-spacing: 0.02em;*/
 }
 
 .site-nav .link.current {
@@ -500,8 +521,11 @@ body {
   align-items: center;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.142px;
   letter-spacing: 0.02em;
+  /*font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;*/
   color: var(--text-color);
 }
 
@@ -553,6 +577,9 @@ body {
   font-size: 44px;
   line-height: 1.364;
   letter-spacing: 0.06em;
+  /*font-size: 44px;
+    line-height: 1.364;
+    letter-spacing: 0.06em;*/
   text-transform: uppercase;
   /*background-color: tomato;*/
 }
@@ -570,6 +597,9 @@ body {
   font-size: 16px;
   line-height: 1.874;
   letter-spacing: 0.06em;
+  /*font-size: 16px;
+    line-height: 1.874;
+    letter-spacing: 0.06em;*/
   cursor: pointer;
   text-align: center;
 }
@@ -592,8 +622,11 @@ body {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.142px;
   letter-spacing: 0.03em;
+  /*font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;*/
   color: var(--primary-text-color);
   text-transform: uppercase;
 }
@@ -604,6 +637,9 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  /*font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;*/
   color: var(--text-color);
 }
 
@@ -666,8 +702,11 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142px;
-  text-align: center;
   letter-spacing: 0.03em;
+  /* font-size: 14px;
+  line-height: 1.142px;
+  letter-spacing: 0.03em;*/
+  text-align: center;
   text-transform: uppercase;
   color: var(--white-text-color);
 }
@@ -684,6 +723,9 @@ body {
   font-size: 16px;
   line-height: 1.186;
   letter-spacing: 0.03em;
+  /*font-size: 16px;
+  line-height: 1.186;
+  letter-spacing: 0.03em;*/
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -693,6 +735,9 @@ body {
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
+  /* font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;*/
   text-align: center;
   color: var(--text-color);
 }
@@ -793,6 +838,9 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  /* font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;*/
   color: var(--white-text-color);
 }
 
@@ -801,6 +849,9 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  /* font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;*/
   color: var(--transparent-text-color);
 }
 
@@ -808,8 +859,11 @@ body {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.142px;
   letter-spacing: 0.03em;
+  /* font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;*/
   color: var(--white-text-color);
   text-transform: uppercase;
 }
@@ -844,6 +898,9 @@ body {
   font-size: 16px;
   line-height: 1.24;
   letter-spacing: 0.03em;
+  /* font-size: 16px;
+      line-height: 1.24;
+      letter-spacing: 0.03em;*/
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -871,6 +928,9 @@ body {
   font-size: 16px;
   line-height: 1.874;
   letter-spacing: 0.06em;
+  /*font-size: 16px;
+    line-height: 1.874;
+    letter-spacing: 0.06em;*/
   text-align: center;
   align-items: center;
   color: var(--white-text-color);
@@ -932,6 +992,9 @@ body {
   font-size: 16px;
   line-height: 1.624;
   letter-spacing: 0.03em;
+  /* font-size: 16px;
+      line-height: 1.624;
+      letter-spacing: 0.03em;*/
   background: var(--secondary-background);
 }
 
@@ -947,6 +1010,9 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  /* font-size: 18px;
+      line-height: 2;
+      letter-spacing: 0.06em;*/
   color: var(--primary-text-color);
 }
 
@@ -954,6 +1020,9 @@ body {
   font-size: 16px;
   line-height: 1.874;
   letter-spacing: 0.03em;
+  /*font-size: 16px;
+      line-height: 1.874;
+      letter-spacing: 0.03em;*/
   color: var(--text-color);
 }
 
@@ -984,6 +1053,9 @@ body {
   font-size: 18px;
   line-height: 1.556;
   letter-spacing: 0.03em;
+  /* font-size: 18px;
+        line-height: 1.556;
+        letter-spacing: 0.03em;*/
   color: var(--white-text-color);
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);

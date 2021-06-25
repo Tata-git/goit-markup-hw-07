@@ -36,9 +36,10 @@
      margin-left: 93px;
    
      font-weight: 500;
-     font-size: 14px;
+     @include font($lsp: 0.02em);
+    /* font-size: 14px;
      line-height: 1.142;
-     letter-spacing: 0.02em;
+     letter-spacing: 0.02em;*/
 
      & .link.current {
       color: var(--accent-color);
@@ -61,10 +62,6 @@
        color: var(--accent-color);
       }
    }
-
-
-   
-   
    /* SITE CONTACTS*/
    .site-contacts {
      display: flex;
@@ -88,9 +85,10 @@
      align-items: center;
    
      font-weight: 500;
-     font-size: 14px;
+     @include font($lsp: 0.02em);
+     /*font-size: 14px;
      line-height: 1.14;
-     letter-spacing: 0.02em;
+     letter-spacing: 0.02em;*/
      color: var(--text-color);
 
      &:hover,

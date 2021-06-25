@@ -7,18 +7,20 @@
   .features-title {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 14px;
+    @include font();
+    /*font-size: 14px;
     line-height: 1.142;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;*/
     color: var(--primary-text-color);
     text-transform: uppercase;
   }
   .description {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 14px;
+    @include font($lh: 1.714);
+    /*font-size: 14px;
     line-height: 1.714;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;*/
     color: var(--text-color);
   }
   .features-description {

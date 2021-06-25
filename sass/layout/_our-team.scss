@@ -9,17 +9,19 @@
   margin-bottom: 10px;
 
   font-weight: 500;
-  font-size: 16px;
+  @include font(16px, 1.186);
+  /*font-size: 16px;
   line-height: 1.186;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;*/
   text-align: center;
   color: var(--primary-text-color);
 }
 .our-team-function {
   margin-bottom: 16px;
-  font-size: 16px;
+  @include font(16px, 1.188);
+ /* font-size: 16px;
   line-height: 1.188;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;*/
   text-align: center;
   color: var(--text-color);
 }

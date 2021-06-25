@@ -27,24 +27,27 @@
   }
   .maps-link {
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    @include font($lh: 1.714);
+   /* font-size: 14px;
     line-height: 1.714;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;*/
     color: var(--white-text-color);
   }
   .footer-mail-link,
   .footer-tel-link {
-    font-size: 14px;
+    @include font($lh: 1.714);
+   /* font-size: 14px;
     line-height: 1.714;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;*/
     color: var(--transparent-text-color);
   }
   .footer-title {
     margin-bottom: 20px;
     font-weight: 700;
-    font-size: 14px;
+    @include font();
+   /* font-size: 14px;
     line-height: 1.142;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;*/
     color: var(--white-text-color);
     text-transform: uppercase;
   }
@@ -73,9 +76,10 @@
     letter-spacing: 0.1em;
 
     &::placeholder {
-      font-size: 16px;
+      @include font(16px, 1.24);
+     /* font-size: 16px;
       line-height: 1.24;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.03em;*/
       color: rgba(255, 255, 255, 0.6);
     }
   }
@@ -102,9 +106,10 @@
   }
   .subscribe {
     font-weight: 700;
-    font-size: 16px;
+    @include font(16px, 1.874, 0.06em);
+    /*font-size: 16px;
     line-height: 1.874;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.06em;*/
     text-align: center;
     align-items: center;
     color: var(--white-text-color);
